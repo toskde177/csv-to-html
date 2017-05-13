@@ -42,6 +42,7 @@ while(! feof($file))
         $firstTimeHeader = false;
     }
 }
+echo "</tbody>";
 echo "</table>";
 
 fclose($file);
